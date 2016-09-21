@@ -1,0 +1,10 @@
+name: DispenserFill
+main: plugins.astro.cannoning.DispenserFill
+description: Just your basic dispenser filling plugin.
+version: 1.0
+author: Astro
+commands:
+  cf:
+    description: Fills nearby dispensers!
+    usage: /<command>
+    aliases: [cannonfill, fillcannon, cannonf, cfill, fillc, fcannon]
