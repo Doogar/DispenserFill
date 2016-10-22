@@ -20,9 +20,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class DispenserFill extends JavaPlugin implements Listener
 {
-	public static Plugin instance;
-	public static DispenserFill plugin;
-
 	public static Logger logger = Logger.getLogger("Minecraft");
 
 	@Override
@@ -38,7 +35,6 @@ public class DispenserFill extends JavaPlugin implements Listener
 		logger.info("DispenserFill has been enabled!");
 		PluginManager pm = Bukkit.getPluginManager();
 		pm.registerEvents(this, this);
-		instance = this;
 	}
 
 	@Override
